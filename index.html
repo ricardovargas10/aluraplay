@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>AluraPlay</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Cabecalho -->
+    <header>
+
+        <nav class="cabecalho__container">
+
+            <h1 class="logo__item" href="#"></h1>
+
+            <div class="cabecalho__pesquisar__item">
+                <form action="">
+                    <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
+                    <label for="pesquisar" class="pesquisar__label"></label>
+                </form>
+                <a href="#" class="cabecalho__audio"></a>
+            </div>
+
+            <div class="cabecalho__icones__item">
+                <a href="#" class="cabecalho__videos"></a>
+                <a href="#" class="cabecalho__apps"></a>
+                <a href="#" class="cabecalho__notificacoes"></a>
+                <a href="#" class="cabecalho__avatar"></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Menu lateral -->
+
+    <aside class="menu__container">
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inicio icone-item"></i>
+                    <span>Início</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__explorar icone-item"></i>
+                    <span>Explorar</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__shorts icone-item"></i>
+                    <span>Shorts</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inscricoes icone-item"></i>
+                    <span>Inscrições</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__biblioteca icone-item"></i>
+                    <span>Biblioteca</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__historico icone-item"></i>
+                    <span>Histórico</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__relogio icone-item"></i>
+                    <span>Assistir mais tarde</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__like icone-item"></i>
+                    <span>Marcados com like</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__mostrar icone-item"></i>
+                    <span>Mostrar mais 2</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__deschamps icone-item"></i>
+                    <span>Felipe Deschamps</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__nerd icone-item"></i>
+                    <span>Jovem Nerd</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__souto icone-item"></i>
+                    <span>Mario Souto</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__iamarino icone-item"></i>
+                    <span>Atila Iamarino</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__ballerini icone-item"></i>
+                    <span>Rafaella Ballerini</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__gaveta icone-item"></i>
+                    <span>Gaveta</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__alura icone-item"></i>
+                    <span>Alura</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens inscricoes" href="#">INSCRIÇÕES</a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li class="jogos">
+                <a class="menu__itens" href="#">
+                    <i class="icone__jogos icone-item"></i>
+                    <span>Jogos</span></a>
+            </li>
+
+            <li class="filmes">
+                <a class="menu__itens" href="#">
+                    <i class="icone__filmes icone-item"></i>
+                    <span>Filmes</span></a>
+            </li>
+            <li class="premium">
+                <a class="menu__itens" href="#">
+                    <i class="icone__videos icone-item"></i>
+                    <span>Vídeo Premium</span></a>
+            </li>
+
+            <li class="menu__itens maispagina">
+                <a href="#">MAIS DA PÁGINA</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Seção superior -->
+
+    <section class="superior__secao__container">
+        <a class="superior__item" href="#">Tudo</a>
+        <a class="superior__item" href="#">Debates</a>
+        <a class="superior__item" href="#">Ao Vivo</a>
+        <a class="superior__item" href="#">Podcasts</a>
+        <a class="superior__item" href="#">Fundos de Investimento</a>
+        <a class="superior__item" href="#">Desenhos</a>
+        <a class="superior__item" href="#">Data Science</a>
+        <a class="superior__item" href="#">Apps</a>
+        <a class="superior__item" href="#">Linguagem de Programação</a>
+        <a class="superior__item" href="#">Ciência da Computação</a>
+        <a class="superior__item" href="#">Marketing</a>
+    </section>
+
+    <!-- Vídeos -->
+
+    <ul class="videos__container">
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/ogtxKEaRB7M?start=324" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>CLIMA DE PAQUERA E AZARAÇÃO COM VALEN BANDEIRA - Rango Brabo #32</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/y3iapF35pMs?start=275" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>FAZENDO DELICIOSAS ESFIHAS ABERTAS COM PAULO ANDRÉ - Rango Brabo #31</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/7YXcuZeO8V0?start=304" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>ARRAIÁ DESCONTROLADO COM HERMES E RENATO - Rango Brabo #30</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/-Iwf-xXxhWc?start=307" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>IGÃO E MÍTICO MONTAM ACADEMIA NA COZINHA DO RANGO BRABO - Rango Brabo #29</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/ugzyIm-ZWkU?start=304" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>COZINHANDO MACARRÃO PARAFUSO COM MC CAROL DE NITERÓI - Rango Brabo #28</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/t0iNBhSFlNw?start=322" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>DEFANTE FAZ BROWNIE ESPACIAL PARA SPACE TODAY - Rango Brabo #26</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/VJ1avDXkBU4?start=223" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>PEDRO SCOOBY E DEFANTE HAVAIANO PREPARAM POKE - Rango Brabo #25</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/_D5hd0Z3XW0?start=219" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>NEYMAR MANDA RECADO E BOCA DE 09 ENSINA PÃO COM PÃO - Rango Brabo #24</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/HxOBgWHVUzo?start=286" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>DJONGA E DONA MARIA NO ABSURDO ESPECIAL DE DIA DAS MÃES - Rango Brabo #23</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/7tMIa9KPcqw?start=293" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>RICHARD RASMUSSEN COZINHA ARROZ SELVAGEM COM LARVAS - Rango Brabo #21</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/KhHC-5BFi8g?start=280" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>A BATALHA DE HOT DOGS COM JULIO COCIELO - Rango Brabo #20</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/P3EMAU6g_i8?start=266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>ESPECIAL DE PÁSCOA SEM CONTROLE COM IGÃO E MÍTICO - Rango Brabo #18</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/O7xHmiRY9yY?start=303" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>SALSICHÃO ATÔMICO COM MATHEUS CANELLA ft. Tio Sérgio - Rango Brabo #16</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/fHVTWZ49_X4?start=276" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>REI DO KUDURO EXPERIMENTA DOCES BRASILEIROS - Rango Brabo #15</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/ekKItUuvmCM?start=271" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>O LAMENTÁVEL LAMEN DE DEFANTE E OROCHINHO - Rango Brabo #11</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/LiKWMeMPaN4?start=287" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/podpah.png" alt="Logo do canal do YouTube Podpah Podcast">
+                <h3>O INACREDITÁVEL DUELO DE CHURRASCO COM ED GAMA E NABOTE - Rango Brabo #9</h3>
+                <p>1,3 mi de visualizações - Há 12 dias</p>
+            </div>
+        </li>
+    </ul>
+
+    <!-- <Seção rodapé> -->
+    <footer class="rodape__container">
+        <section>
+            <h2 class="rodape__titulo">Programação</h2>
+            <p class="rodape__texto">Lógica</p>
+            <p>Python</p>
+            <p>Computação</p>
+            <p>Jogos</p>
+            <p>Computação</p>
+            <p>Node JS</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Data Science</h2>
+            <p class="rodape__texto">Ciência de dados</p>
+            <p>BI</p>
+            <p>SQL</p>
+            <p>Banco de Dados</p>
+            <p>Machine Learning</p>
+            <p>NoSQL</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">UX e Design</h2>
+            <p class="rodape__texto">Photoshop</p>
+            <p>Illustrator</p>
+            <p>Usabilidade</p>
+            <p>Vídeo e Motion</p>
+            <p>Figma</p>
+            <p>Interface</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Inovação e Gestão</h2>
+            <p class="rodape__texto">Métodos ágeis</p>
+            <p>Softskills</p>
+            <p>Liderança</p>
+            <p>Gestão</p>
+            <p>Startups</p>
+            <p>Vendas</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Front-end</h2>
+            <p class="rodape__texto">HTML</p>
+            <p>CSS</p>
+            <p>React</p>
+            <p>Angular</p>
+            <p>JavaScript</p>
+            <p>jQuery</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Devops</h2>
+            <p class="rodape__texto">AWS</p>
+            <p>Azure</p>
+            <p>Docker</p>
+            <p>Segurança</p>
+            <p>IaC</p>
+            <p>Linux</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Mobile</h2>
+            <p class="rodape__texto">React Native</p>
+            <p>Flutter</p>
+            <p>iOS</p>
+            <p>Swift</p>
+            <p>Android</p>
+            <p>Kotlin</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
